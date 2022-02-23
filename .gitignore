@@ -1,0 +1,15 @@
+node_modules
+.env
+*.log
+.cache
+dist
+.DS_Store
+.idea
+*.zip
+local.js
+gcloud-token.json
+.synopsys/
+.vscode
+__pycache__/
+coverage
+
