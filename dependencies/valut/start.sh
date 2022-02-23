@@ -3,7 +3,7 @@
 echo "add token rotate wrapper"
 echo "cp file"
 
-cp ../example1/dependencies/valut/vault.js ./functions/helloworld/
+cp ../example1/dependencies/valut/valut.js ./functions/helloworld/
 cp ../example1/dependencies/valut/vaultClient.js ./functions/helloworld/
 
 echo "sed dependency"
