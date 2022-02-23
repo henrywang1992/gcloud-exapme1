@@ -3,8 +3,8 @@
 echo "add token rotate wrapper"
 echo "cp file"
 
-cp valut.js /test
-cp vaultClient.js /test
+cp ../example1/dependencies/valut/vault.js ./functions/helloworld/
+cp ../example1/dependencies/valut/vaultClient.js ./functions/helloworld/
 
 echo "sed dependency"
 sed -i '.bak' 's/@google-cloud\/secret-manager/.\/vaultClient/g'  index.js
